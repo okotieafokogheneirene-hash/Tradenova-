@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TradeNova</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="topbar">
+    <h2>TradeNova</h2>
+    <div id="balance">Balance: $10,000</div>
+  </div>
+
+  <div class="price-box">
+    <h1 id="price">100.00</h1>
+    <p>BTC / USDT (Demo Market)</p>
+  </div>
+
+  <div class="chart">
+    📊 Live Chart Area
+  </div>
+
+  <div class="buttons">
+    <button class="buy" onclick="trade('buy')">BUY</button>
+    <button class="sell" onclick="trade('sell')">SELL</button>
+  </div>
+
+  <div class="history">
+    <h3>Trade History</h3>
+    <ul id="trades"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
